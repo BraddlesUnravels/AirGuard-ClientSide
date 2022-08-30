@@ -2,8 +2,6 @@ import { useState, useEffect } from 'react';
 import './ContactElements.js';
 import genID from '../../Components/functions/genID';
 import backImage from '../../Components/img/BackImageDPI300.JPEG';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import {
   ExContainer,
   Section,
@@ -12,7 +10,6 @@ import {
   Form
 } from './ContactElements';
 import { NavBtnLink } from '../../Components/NavBar/NavBarElements';
-import { fa1, fa2, fa4 } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
 import { pageVariants, pageTrans, pageStyle } from '../../Components/NavBar/Animation';
 
@@ -181,8 +178,8 @@ const Contact = () => {
                   Email: bradley@b-laskey.com
                 </p>
                 <p>
-                  <a href='https://www.linkedin.com/in/bradley-l-13aa96133/' target='_blank' alt='Bradley Laskey LinkedIn Profile'><FontAwesomeIcon icon={ faLinkedin } size='2x' ></FontAwesomeIcon></a>{' '}
-                  <a href='https://github.com/BraddlesUnravels' target='_blank' alt='Bradley Laskey GitHub Profile'><FontAwesomeIcon icon={ faGithub } size='2x' ></FontAwesomeIcon></a>
+                  <a href='https://www.linkedin.com/in/bradley-l-13aa96133/' target='_blank' alt='Bradley Laskey LinkedIn Profile'></a>
+                  <a href='https://github.com/BraddlesUnravels' target='_blank' alt='Bradley Laskey GitHub Profile'></a>
                 </p>
 
               </Section2>

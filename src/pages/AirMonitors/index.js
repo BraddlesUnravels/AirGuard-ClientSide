@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import hexToRgbA from 'hex-to-rgba';
 import useFetchApi from '../../Components/functions/useFetchApi';
 import logo from '../../Components/img/AirGuard_Logo.png';
 import { 

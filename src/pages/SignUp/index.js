@@ -5,8 +5,6 @@ import {
   Div
 } from './SignUpElements';
 import { NavBtnLink } from '../../Components/NavBar/NavBarElements';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSquareCheck } from '@fortawesome/free-solid-svg-icons';
 import { motion } from 'framer-motion';
 import { pageVariants, pageTrans, pageStyle } from '../../Components/NavBar/Animation';
 import axios from "axios";
