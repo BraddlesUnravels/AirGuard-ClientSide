@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "lib": [
+            "dom",
+            "DOM.Iterable",
+            "ESNext",
+            "ES2021"
+        ],
+        "allowJs": true,
+        "noEmit": false,
+        "jsx": "react",
+        "sourceMap": true,
+        "strict": false,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "removeComments": true,
+        "noEmitOnError": true,
+        //"noImplicitReturns": true,
+        //"noUnusedParameters": true,
+        //"noUnusedLocals": true
+    },
+    "include": [
+        "src/**/*",
+        "**/*.ts",
+        "**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules",
+        "build"
+    ]
+}
